@@ -1,0 +1,18 @@
+My purpose is to learn about how do OSs work. 
+I'll be working with an old tablet from around 2012 that right now runs Android 4.0.4.
+
+After a few days of fiddling with it, using ADB and with some help from Chatgpt I've found the file /proc/cpuinfo:
+Processor       : ARMv7 Processor rev 2 (v7l)
+BogoMIPS        : 1001.88
+Features        : swp half thumb fastmult vfp edsp neon vfpv3
+CPU implementer : 0x41
+CPU architecture: 7
+CPU variant     : 0x3
+CPU part        : 0xc08
+CPU revision    : 2
+
+Hardware        : sun5i
+Revision        : a13b
+
+So now I know what kind of processor I'm dealing with. The sun5i is a chip from the manufacturer Allwinners. 
+With this data I'll now look for more information regarding the tablet and the chip.
